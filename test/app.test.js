@@ -7,7 +7,7 @@ describe("Testes da API", () => {
 
     expect(response.statusCode).toBe(200);
 
-    expect(response.body.mensagem).toBe("API funcionando com Jenkins");
+    expect(response.body.mensagem).toBe("API funcionando.");
   });
 
   test("GET /status deve retornar online", async () => {
